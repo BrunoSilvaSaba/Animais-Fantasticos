@@ -213,4 +213,16 @@ body {
 
 .js-tabcontent section.ativo {
   display: block;
+  animation: show 4s;
+}
+
+@keyframes show {
+  from {
+    opacity: 0; 
+    transform: translate3d(-30px, 00px ,00px);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(00, 00, 00);
+  }
 }
